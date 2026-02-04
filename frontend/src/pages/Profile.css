@@ -1,0 +1,27 @@
+/* Profile Page Styles */
+
+.profile-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-card p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}

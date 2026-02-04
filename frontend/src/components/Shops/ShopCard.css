@@ -1,0 +1,77 @@
+.shop-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.shop-name {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.shop-category {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.shop-body {
+  margin-bottom: 15px;
+}
+
+.shop-description {
+  color: #666;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.shop-details {
+  margin: 10px 0;
+}
+
+.shop-details p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.shop-actions {
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.shop-actions .btn {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .shop-card {
+    padding: 15px;
+  }
+
+  .shop-name {
+    font-size: 18px;
+  }
+}
